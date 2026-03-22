@@ -10,3 +10,4 @@
   * Edge cases (boundaries, empty inputs, nested structures).
   * Integration tests for end-to-end flows.
 - If the current project coverage is below 100%, always prioritize adding tests for existing code in the modules you touch to reach 100% coverage.
+- Proactively implement and maintain fuzzing for all projects, especially those that handle user input, read files, or connect to the network (e.g., forum apps, editors, protocol implementations). Fuzzing is as critical as standard unit testing for ensuring robustness and security.
